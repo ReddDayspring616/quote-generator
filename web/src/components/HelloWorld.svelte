@@ -14,7 +14,7 @@
   let showCloseForm = false;
   let closeFormEl: any;
 
-  const imageUrl = import.meta.env.BASE_URL;
+  const imageUrl = "https://github.com/ReddDayspring616/quote-generator/tree/main/web/public/";
 
   const types = [
     "Best Sellers",
