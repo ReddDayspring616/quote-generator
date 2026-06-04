@@ -14,7 +14,7 @@
   let showCloseForm = false;
   let closeFormEl: any;
 
-  const imageUrl = "https://github.com/ReddDayspring616/quote-generator/tree/main/web/public/";
+  const imageUrl = "https://raw.githubusercontent.com/ReddDayspring616/quote-generator/refs/heads/main/web/public/";
 
   const types = [
     "Best Sellers",
