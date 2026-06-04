@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-color);
+}
+
+html {
+  background: var(--bg-primary);
+}
+
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+#app {
+  min-height: 100dvh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: linear-gradient(180deg, #0e0e10 0%, #141416 100%);
+  --bg-secondary: linear-gradient(180deg, #18181b 0%, #1f1f23 100%);
+  --bg-tertiary: linear-gradient(180deg, #232326 0%, #2a2a2e 100%);
+  --text-color: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --border-color: #2e2e32;
+  --btn-primary: #ec4899;
+  --btn-primary-hover: #db2777;
+  --btn-secondary: #a855f7;
+  --btn-secondary-hover: #9333ea;
+  --btn-text-primary: #f4f4f5;  
+  --btn-text-secondary: #e4e4e7;
+  --btn-text-neutral: #d4d4d8;  
+  --btn-text-danger: #fff1f0;   
+  --btn-text-muted: #a1a1aa;
+}
