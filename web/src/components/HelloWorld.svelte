@@ -14,7 +14,7 @@
   let showCloseForm = false;
   let closeFormEl: any;
 
-  const imageUrl = "/";
+  const imageUrl = import.meta.env.BASE_URL;
 
   const types = [
     "Best Sellers",
